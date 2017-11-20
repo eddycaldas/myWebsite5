@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:1rem;
+  font-weight:normal;
+  line-height:1.5;
+  color:#333;
+  overflow-x:hidden;
+}
+main {
+   flex: 1 0 auto;
+ }
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.container{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background:#263468;
+  opacity:0.90;
+}
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+  font-size:50px;
+  margin-bottom:0;
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+  padding-bottom:2rem;
+}
+.section{
+  padding:20px 0;
+}
+
+.myPortfolio{
+  text-align: center;
+  /*width: 100%;
+  height: 100px;*/
+  background:#263468;
+  color:#fff;
+}
+
+@media(max-width:960px){
+  .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
+.hold2 {
+  display: flex;
+}
+.row {
+  width: 50%;
+  padding-left: 10%;
+}
+.portfolioText {
+  font-size: 65%;
+}
+
+#test2 {
+  display: flex;
+  width: 100%;
+  height:100vh;
+}
+.section.section.section-a {
+  height:100vh;
+}
+.tabAbout1 {
+  width: 40%;
+  height:100vh;
+}
+.tabAbout2 {
+  width: 40%;
+  height:100vh;
+}
+.textAbout {
+    padding-top: 45%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.mypic {
+  width: 100%;
+  height:100vh;
+  opacity: 0.3;
+}
+.myPicImage {
+  padding-top: 12%;
+}
+.linkedInFooter {
+  width: 35px;
+  height: 35px;
+}
+.githubFooter {
+  width: 33px;
+  height: 42px;
+  padding-bottom: 7px;
+}
+.facebookFooter {
+  width: 31px;
+  height: 33px;
+}
+ul.logo-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.empty1 {
+  width: 30px;
+}
+.empty2 {
+  width: 43px;
+}
+.logo-footer {
+  display: flex;
+  padding-left: 10%;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+  background: #263468; 
+  
+}
+.containerFooter {
+  padding-top: 18%;
+  color: white;
+}
+.footer-copyright {
+  color: white;
+}
+a.resume {
+  color: white;
+}
+.resume1 {
+  padding-top: 2%;
+}
